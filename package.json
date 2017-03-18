@@ -1,0 +1,24 @@
+{
+  "name": "hack24-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sebastianghetu@gitlab.com/roboto.studio/Hack24-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/roboto.studio/Hack24-node/issues"
+  },
+  "homepage": "https://gitlab.com/roboto.studio/Hack24-node#README",
+  "dependencies": {
+    "express": "^4.15.2",
+    "firebase-admin": "^4.1.3",
+    "firebase-queue": "^1.6.1"
+  }
+}
