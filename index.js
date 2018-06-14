@@ -16,7 +16,7 @@ class MainClass {
 
         admin.initializeApp({
             credential: admin.credential.cert(serviceAccount),
-            databaseURL: "***REMOVED***"
+            databaseURL: "SANITIZED"
         });
 
         this.firebaseManager = new FirebaseManager(this.ROOT_NODE);
@@ -25,8 +25,8 @@ class MainClass {
 
         this.transporter = nodemailer.createTransport(mg({
             auth: {
-                api_key: '***REMOVED***',
-                domain: '***REMOVED***'
+                api_key: 'SANITIZED',
+                domain: 'SANITIZED'
             }
         }));
 
